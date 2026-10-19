@@ -1,0 +1,35 @@
+{
+  "name": "dsh-tavern-shortcut",
+  "displayName": "Tavern Shortcut",
+  "version": "0.1.0",
+  "description": "Creates a desktop shortcut for the DSH Tavern page on first load only; later DSH launches do nothing and never start the Tavern service.",
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "scripts",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "tavern",
+    "shortcut"
+  ],
+  "author": "DrifterJD",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrifterJD/dsh-tavern-shortcut.git"
+  },
+  "homepage": "https://github.com/DrifterJD/dsh-tavern-shortcut#readme",
+  "bugs": {
+    "url": "https://github.com/DrifterJD/dsh-tavern-shortcut/issues"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,7 @@
+# dsh-tavern-shortcut —— DSH bundle patch
+# 把插件插入 DSH 的 Web profile 配置树。插件本身只创建桌面快捷方式，
+# 不会启动酒馆服务，也不会改变 DSH 的默认启动目标。
+
+- insert:
+    - id: dsh-tavern-shortcut
+      name: dsh-tavern-shortcut
