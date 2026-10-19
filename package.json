@@ -23,6 +23,9 @@
     "shortcut"
   ],
   "author": "DrifterJD",
+  "os": [
+    "win32"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DrifterJD/dsh-tavern-shortcut.git"

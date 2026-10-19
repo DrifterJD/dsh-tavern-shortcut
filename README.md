@@ -2,6 +2,8 @@
 
 **Tavern Shortcut** —— 将酒馆页面分离成两个窗口。
 
+> 仅支持 Windows（依赖 PowerShell、WScript.Shell 和 `.lnk` 快捷方式）。
+
 插件第一次加载时会在桌面生成一个酒馆图标。点这个图标打开酒馆，点 DSH 图标默认进入 DSH 工作页面。之后启动 DSH 不会再创建快捷方式，也不会自动启动酒馆服务。
 
 <img width="1419" height="827" alt="dsh-tavern-shortcut" src="https://github.com/user-attachments/assets/a3b1f73a-aaf3-4249-8b25-fb73caa41d9c" />
