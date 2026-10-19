@@ -76,6 +76,14 @@ dsh plugin --profile desktop remove dsh-tavern-shortcut
 
 卸载不会删除桌面快捷方式；需要时手动删除即可。
 
+## 常见问题
+
+### 启动时报 `dsh-tavern-mvupanel: pending (waiting for service: tavernUi)`
+
+这与本插件无关。`dsh-tavern-mvupanel` 是 DSH Tavern 生态里的 MVU 面板插件，需要 Tavern 核心提供 `tavernUi` 服务。请确认它安装在 `tavern` profile，并且 `dsh-tavern` 核心已启用；不要把它装进 `desktop` profile。
+
+本插件只创建桌面快捷方式，不注册、也不依赖任何 Tavern 服务；即使酒馆没有启动，也不会导致 DSH 启动失败。
+
 ## License
 
 MIT
